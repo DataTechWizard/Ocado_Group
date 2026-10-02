@@ -33,7 +33,7 @@ This vault covers the **Ocado Smart Platform (OSP)** data engineering work, focu
 - **Governance** — maintaining the canonical measurement contract across partners
 - **Legacy migrations** — moving partners off older tracking into the OSP framework
 
-See [[00_Day_1_Initiation_Handoff]] for the full pre-employment context.
+See [[70_Docs/onboarding/00_Day_1_Initiation_Handoff|00_Day_1_Initiation_Handoff]] for the full pre-employment context.
 
 ---
 
