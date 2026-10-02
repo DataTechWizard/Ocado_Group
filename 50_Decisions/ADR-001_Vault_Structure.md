@@ -14,7 +14,7 @@ updated: 2026-10-02
 
 ## Context
 
-Starting a new Senior Data Engineer role at Ocado Group (OSP division). Need a system that:
+Starting a new Data Implementation Engineer (DE2) role at Ocado Group (OSP division). Need a system that:
 - Serves as both a **knowledge base** and a **codebase** reference
 - Is **AI-agent friendly** (markdown, structured, file-based)
 - Supports **bidirectional linking** between concepts (stakeholders ↔ tech ↔ partners ↔ bugs)

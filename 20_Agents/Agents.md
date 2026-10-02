@@ -10,7 +10,7 @@
 
 | Agent | Role | Context Source | Status |
 |---|---|---|---|
-| [[Agent_Senior_Data_Engineer]] | Primary coding & architecture partner | Full vault (Memory + Code) | ✅ Active |
+| [[Agent_Senior_Data_Engineer]] | Data Implementation Engineer (DE2) — primary coding & architecture partner | Full vault (Memory + Code) | ✅ Active |
 | [[Agent_QA_Validator]] | Validates GA4 event schemas & data quality | Memory + Bugs + Code | 🟡 Planned |
 | [[Agent_Research]] | Web research, documentation lookup | Web + Docs | 🟡 Planned |
 

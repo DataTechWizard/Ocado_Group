@@ -14,7 +14,7 @@ updated: 2026-10-02
 graph TD
     SL["Sam Lloyd<br/>VP Data Analytics & AI"] --> KD["Katie Driver<br/>Interim VP Partner Growth"]
     SL --> CV["Chandni Vaja<br/>Line Manager"]
-    CV --> ME["Mehdi<br/>Sr Data Engineer"]
+    CV --> ME["Mehdi<br/>Data Implementation Engineer (DE2)"]
     CV --> AW["Andy Wicks<br/>PM — GA4 in OSP"]
     SL --> JT["Jonathan Trillwood<br/>Recruitment BP (Tech)"]
 ```

@@ -1,6 +1,6 @@
 # Ocado OSP — Vault Home
 
-> **Role:** Senior Data Engineer — Ocado Smart Platform (OSP)  
+> **Role:** Data Implementation Engineer (DE2) — Ocado Smart Platform (OSP)  
 > **Start Date:** 5 October 2026  
 > **Vault Purpose:** Living knowledge base, codebase reference, and onboarding accelerator.
 

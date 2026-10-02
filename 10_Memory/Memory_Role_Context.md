@@ -9,7 +9,7 @@ updated: 2026-10-02
 # Role Context
 
 ## Position
-- **Title:** Senior Data Engineer (Implementation & Analytics)
+- **Title:** Data Implementation Engineer (DE2)
 - **Division:** Ocado Smart Platform (OSP)
 - **Salary:** £85,000
 - **Start Date:** 5 October 2026
