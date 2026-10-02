@@ -22,5 +22,5 @@
 | Document | Description | Status |
 |---|---|---|
 | [[Onboarding_Checklist]] | Day 1 → Week 4 onboarding checklist | ✅ Created |
-| _OSP Event Model Spec_ | Canonical event model documentation | ⬜ Awaiting access |
+| [[OSP_Core_Event_Model]] | Canonical event model documentation | 🟡 Placeholder — awaiting internal access |
 | _Asda GA4 Scope_ | Asda implementation requirements | ⬜ Awaiting discovery |

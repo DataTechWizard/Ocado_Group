@@ -1,0 +1,32 @@
+# OSP Data Implementation — Python Dependencies
+#
+# Install: pip install -r requirements.txt
+# Recommended: use a virtual environment (python -m venv .venv)
+#
+# These are expected dependencies based on the known tech stack.
+# Adjust versions once you have access to internal tooling and know
+# which Python version the team standardises on.
+
+# ── Google Cloud & BigQuery ──────────────────
+google-cloud-bigquery>=3.20.0
+google-cloud-storage>=2.14.0
+google-auth>=2.28.0
+db-dtypes>=1.2.0                  # BigQuery DataFrame dtypes
+
+# ── GA4 / Analytics ──────────────────────────
+google-analytics-data>=0.18.0     # GA4 Data API client
+google-analytics-admin>=0.22.0    # GA4 Admin API client
+
+# ── Data Processing ──────────────────────────
+pandas>=2.2.0
+pyarrow>=15.0.0                   # Parquet support + BQ fast reads
+
+# ── Validation & Testing ─────────────────────
+jsonschema>=4.21.0                # Event schema validation
+pytest>=8.0.0
+pytest-cov>=4.1.0
+
+# ── Utilities ────────────────────────────────
+python-dotenv>=1.0.0              # .env file loading
+pyyaml>=6.0.0                     # YAML config parsing
+rich>=13.7.0                      # Pretty console output

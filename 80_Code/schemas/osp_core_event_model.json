@@ -1,0 +1,43 @@
+# OSP Core Event Model — JSON Schema (Placeholder)
+#
+# Populate this schema once you have access to the internal event dictionary.
+# This will serve as the machine-readable contract that the QA Validator agent
+# can validate partner implementations against.
+#
+# See: 70_Docs/specs/OSP_Core_Event_Model.md for the human-readable version.
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OSP Canonical Event Model",
+  "description": "Schema for validating GA4 events against the OSP measurement contract",
+  "type": "object",
+  "definitions": {
+    "item": {
+      "type": "object",
+      "required": ["item_id", "item_name"],
+      "properties": {
+        "item_id": { "type": "string", "description": "Product SKU" },
+        "item_name": { "type": "string", "description": "Product display name" },
+        "item_brand": { "type": "string" },
+        "item_category": { "type": "string" },
+        "price": { "type": "number", "minimum": 0 },
+        "quantity": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "purchase_event": {
+      "type": "object",
+      "required": ["event_name", "transaction_id", "value", "currency", "items"],
+      "properties": {
+        "event_name": { "const": "purchase" },
+        "transaction_id": { "type": "string" },
+        "value": { "type": "number", "minimum": 0 },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/item" }
+        }
+      }
+    }
+  }
+}
