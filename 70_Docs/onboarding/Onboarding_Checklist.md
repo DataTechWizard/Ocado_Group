@@ -10,7 +10,7 @@ updated: 2026-10-02
 
 ## Pre-Day 1 ✅
 
-- [x] Read and internalize [[00_Day_1_Initiation_Handoff]]
+- [x] Read and internalize [[00_Day_1_Initiation_Handoff|00_Day_1_Initiation_Handoff]]
 - [x] Set up Obsidian vault and knowledge base structure
 - [x] Document known stakeholders, tech stack, and partner map
 - [x] Prepare questions for Week 1 meetings
